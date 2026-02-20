@@ -92,6 +92,11 @@
 			<y>825.0</y>&#13;
 			<label>0</label>&#13;
 		</state>&#13;
+		<state id="18" name="S">
+    		<x>1200.0</x>
+    		<y>760.0</y>
+    		<label>0</label>
+		</state>&#13;
 		<!--The list of transitions.-->&#13;
 		<transition>&#13;
 			<from>13</from>&#13;
@@ -333,5 +338,14 @@
 			<to>16</to>&#13;
 			<read>80</read>&#13;
 		</transition>&#13;
-	</automaton>&#13;
+		</transition>&#13;
+       		<from>18</from>
+			<to>16</to>
+			<read>30</read>
+       	</automaton>&#13;
+		</automaton>&#13;
+			<from>16</from>
+			<to>18</to>
+			<read>30</read>
+		</automaton>&#13;
 </structure>
